@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 
-export default function page({params}) {
+export default function Page({params}) {
     const [data,setData] = useState(null);
     
     //fechBlogData function in maked here
